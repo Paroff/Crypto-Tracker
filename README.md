@@ -33,7 +33,7 @@ This will:
 |-----------------------------|-----------------------------------|
 | Move the window             | Left-click + drag                 |
 | Quit                        | Right-click on the window         |
-| Remove from startup         | Re-run `installer_demarrage.bat`  |
+| Remove from startup         | Re-run `start.bat`  |
 
 ---
 
