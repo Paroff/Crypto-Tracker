@@ -43,7 +43,6 @@ This will:
 - Green chart if the crypto is up over 24h  
 - Red chart if the crypto is down over 24h  
 - Borderless window, always on top  
-- Minimum size ≈ Windows taskbar clock  
 - Memory usage < 30 MB, near-zero CPU between updates  
 
 ---
