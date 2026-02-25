@@ -1,48 +1,57 @@
 # Crypto-Tracker
-A widget that tracks crypto indexes
 
+A widget that tracks cryptocurrency indexes.
 
-₿ Crypto Ticker - Installation Guide
+---
 
-Prerequisites
+## ₿ Crypto Ticker - Installation Guide
 
-Python 3.8+ installed with the "Add Python to PATH" option checked
-→ https://www.python.org/downloads/
+### Prerequisites
 
-Quick Installation
+Python 3.8+ installed with the **"Add Python to PATH"** option checked → [Python Downloads](https://www.python.org/downloads/)
 
-Place both files in the same folder:
+---
 
-crypto_ticker.pyw
-start.bat
+### Quick Installation
 
-Double-click start.bat
+1. Place both files in the same folder:  
+   - `crypto_ticker.pyw`  
+   - `start.bat`
 
-Automatically installs the requests library
-Adds the ticker to Windows startup
-Offers to launch it immediately
+2. Double-click `start.bat`  
 
-Usage
+This will:  
+- Automatically install the `requests` library  
+- Add the ticker to Windows startup  
+- Offer to launch it immediately  
 
-Action | Description
-Move the window | Left-click + drag
-Quit | Right-click on the window
-Remove from startup | Re-run installer_demarrage.bat
+---
 
-How It Works
+### Usage
 
-Selected cryptocurrency price updates every 60 seconds (free CoinGecko API)
-Green chart if the crypto is up over 24h
-Red chart if the crypto is down over 24h
-Borderless window, always on top
-Minimum size ≈ Windows taskbar clock
-Memory usage < 30 MB, near-zero CPU between updates
+| Action                     | Description                       |
+|-----------------------------|-----------------------------------|
+| Move the window             | Left-click + drag                 |
+| Quit                        | Right-click on the window         |
+| Remove from startup         | Re-run `installer_demarrage.bat`  |
 
-Resource Usage
+---
 
-The app "sleeps" 60 seconds between updates.
+### How It Works
 
-Typical usage:
+- Selected cryptocurrency price updates every 60 seconds (free CoinGecko API)  
+- Green chart if the crypto is up over 24h  
+- Red chart if the crypto is down over 24h  
+- Borderless window, always on top  
+- Minimum size ≈ Windows taskbar clock  
+- Memory usage < 30 MB, near-zero CPU between updates  
 
-RAM: ~15–25 MB
-CPU: < 0.1% while idle
+---
+
+### Resource Usage
+
+The app "sleeps" 60 seconds between updates.  
+
+**Typical usage:**  
+- RAM: ~15–25 MB  
+- CPU: < 0.1% while idle
